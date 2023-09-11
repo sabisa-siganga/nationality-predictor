@@ -1,38 +1,36 @@
-.App {
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+/* react bootstrap link */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* styling of the body */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* styling of the container */
+.app-container {
   text-align: center;
-}
+  max-width: 500px;
+  height: 400px;
+  background: #ecd2f3;
+  box-shadow: 1px 1px 36px #ddc5c5;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* styling of the webpage title */
+  h1 {
+    font-size: 34px;
+    font-weight: 500;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* styling of the button */
+  button {
+    width: 115px;
+    height: 40px;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* styling of the input */
+  .form-field {
+    max-width: 400px;
   }
 }
